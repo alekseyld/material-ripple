@@ -15,5 +15,5 @@ android {
 }
 apply from: '../maven_push.gradle'
 dependencies {
-    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.nineoldandroids:library:2.4.0'
 }
